@@ -14,5 +14,4 @@ def run_tests():
 	for test in tests:
 		result = "Passed" if test() else "Failed" 
 		print(test.__name__, result, sep="-")
-
-#run_tests()
+run_tests()
