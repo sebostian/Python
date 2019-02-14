@@ -260,3 +260,4 @@ paket-files/
 __pycache__/
 *.pyc
 /run git-bash.bat
+/Algorithms/run git-bash heroes.bat
