@@ -1,0 +1,2 @@
+from Tests import generate_numbers_tests
+generate_permutations_test()
