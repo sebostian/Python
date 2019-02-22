@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6d4dfc10-ff03-49a6-bd71-5534e8818338</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tests\generate_numbers_tests.py</StartupFile>
+    <StartupFile>lcs.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,9 @@
     <Compile Include="Algorithms.py" />
     <Compile Include="gcd.py" />
     <Compile Include="generate_numbers.py" />
+    <Compile Include="lcs.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="misc_utils.py" />
     <Compile Include="sorting.py" />
     <Compile Include="Tests\generate_numbers_tests.py" />
