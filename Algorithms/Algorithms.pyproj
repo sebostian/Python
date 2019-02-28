@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6d4dfc10-ff03-49a6-bd71-5534e8818338</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>lcs.py</StartupFile>
+    <StartupFile>fibonachi.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Algorithms.py" />
+    <Compile Include="fibonachi.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="gcd.py" />
     <Compile Include="generate_numbers.py" />
     <Compile Include="lcs.py">

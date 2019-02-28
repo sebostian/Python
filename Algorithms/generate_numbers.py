@@ -1,3 +1,11 @@
+def generate_binary(M, prefix =""):
+	if M==0:
+		print(prefix)
+		return
+	generate_binary(M-1, prefix + "0")
+	generate_binary(M-1, prefix + "1")
+
+
 def generate_numbers(n, len, prefix):
 	if len == 0:
 		print(prefix)
@@ -25,3 +33,5 @@ def generate_permutations(count_numbers, count_positions, prefix):
 		prefix.append(i)
 		generate_permutations(count_numbers, count_positions - 1, prefix)
 		prefix.pop()
+
+generate_binary(3)
