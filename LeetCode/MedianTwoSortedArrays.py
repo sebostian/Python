@@ -1,4 +1,17 @@
 '''
+finds median of two sorted arrays
+'''
+def findMedianSortedArrays(self, nums1, nums2) -> float:
+    c = merge(nums1, len(nums1), nums2, len(nums2))
+    if len(c) % 2 == 1:
+        median = c[len(c) // 2]
+    else:
+        j = len(c) // 2        
+        median = (c[j] + c[j-1]) / 2     
+
+    return median
+
+'''
 merges two sorted arrays
 result is new sorted array
 '''
@@ -25,16 +38,12 @@ def merge(nums1, m, nums2, n):
             c.append(nums2[j])
             j += 1
 
-    nums1.clear()
-    for a in c:
-        nums1.append(a)
+    return c
 
+a = [0,9,10]
+b = [1,3]
 
+m = findMedianSortedArrays(1, a, b)
+print(m)
 
-
-a = [2, 100]
-b = [2, 5, 7, 90]
-
-merge(a, 2, b, 4)
-print(a)
 
