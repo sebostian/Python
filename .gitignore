@@ -261,3 +261,5 @@ __pycache__/
 *.pyc
 /run git-bash.bat
 /Algorithms/run git-bash heroes.bat
+XBackupsCopy/x_backups_copy.code-workspace
+XBackupsCopy/.vscode/launch.json
